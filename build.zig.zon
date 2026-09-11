@@ -2,6 +2,6 @@
     .name = .subseeker,
     .version = "0.1.0",
     .minimum_zig_version = "0.16.0",
-    .fingerprint = 0xaf97bcc3c4b8b5be,
+    .fingerprint = 0xe52102d6441a3b79,
     .paths = .{ "build.zig", "build.zig.zon", "src" },
 }
