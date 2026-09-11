@@ -8,6 +8,10 @@ zig-cache/
 # Compiled output tree, including zig-out/bin/subseeker.
 zig-out/
 
+# Release artifacts (published as GitHub release assets, not committed)
+subseeker-v*
+SHA256SUMS
+
 # ---------------------------------------------------------------------------
 # Local run artifacts you probably don't want in git
 # ---------------------------------------------------------------------------
