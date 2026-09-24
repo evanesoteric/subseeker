@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.installed.cfg
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- subseeker runtime artifacts ---
+# Cached CT responses and scan output — regenerated on demand, never committed.
+*.crt.json
+ct.json
+cached.json
+*.ndjson
+found.json
+hosts.txt
+hot.txt
+*.out
+
+# --- Editor / OS cruft ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
